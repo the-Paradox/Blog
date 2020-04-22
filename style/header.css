@@ -1,0 +1,98 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+.clearfix:before,
+.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after {
+    clear:both;
+}
+.clearfix {
+    zoom:1; /* Хак для IE 6 и 7 */
+}
+
+header {
+	z-index: 1000;
+	position: fixed;
+	background-color: #8300A3;
+	width: 100%;
+}
+.title {
+	float: left;
+}
+.title a {
+	color: black;
+}
+.title a:hover {
+	text-decoration: none;
+}
+.title img {
+	height: 90px;
+}
+.menu {
+	float: left;
+}
+.menu a {
+	color: black;
+	font-size: 20px;
+	margin: 25px 10px;
+	display: inline-block;
+	height: 50px;
+	width: 100px;
+	border: 3px solid transparent;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 45px;
+}
+.menu a:hover {
+	text-decoration: none;
+	background-color: red;
+	border: 3px solid black;
+}
+.menu-link {
+	position: relative;
+	display: inline-block;
+}
+.drop {
+	position: absolute;
+	display: none;
+	background-color: #8300A3;
+}
+.menu-link:hover .drop {
+	display: block;
+}
+.drop a {
+
+}
+.drop a:hover {
+	
+}
+
+
+
+.social-links {
+	float: right;
+}
+.social-links a {
+	color: black;
+	font-size: 50px;
+	margin: 0 10px;
+}
+.social-links a:hover {
+	text-decoration: none;
+	cursor: help;
+}
+.social-links img {
+	height: 50px;
+}
+.vidstup {
+	height: 120px;
+}
