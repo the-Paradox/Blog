@@ -1,0 +1,17 @@
+table{
+	font-size: 80px;
+	border: 5px inset blue;
+	cursor:pointer;
+	padding:2px;
+	border-radius: 5px;
+	-webkit-box-shadow: 10px 10px 10px 0px rgba(117,117,117,1);
+	-moz-box-shadow: 10px 10px 10px 0px rgba(117,117,117,1);
+	box-shadow: 10px 10px 10px 0px rgba(117,117,117,1);
+}
+td{
+	border:2px groove green;
+	padding:2px;
+	width:100px;
+	height:100px;
+	text-align:center;
+}
